@@ -47,6 +47,7 @@ This project aims to create a Power BI solution that purifies and standardizes t
 <img width="975" height="674" alt="image" src="https://github.com/user-attachments/assets/6c9658e7-336e-4386-808a-5991515ce3ec" />
 
 <img width="624" height="231" alt="image" src="https://github.com/user-attachments/assets/8be1d5b1-2da1-4e88-8195-3148d496caf9" />
+
 FactBookings contains the transactional details of the dataset — one entry for each booking — as well as the metrics that are summarized in analysis: Duration Nights, Price per Night, Total Price Payment, Review Score. 
 It is located at the core of the model, as all other tables are designed to either describe or filter these booking transactions, aligning with the FactSales pattern.
 Reasons for the creation of each dimension:
