@@ -119,24 +119,30 @@ This is a measure that shows the year-over-year trend growth of the sales; it co
 # Dashboard and insights
 
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/337f775a-790c-4922-85da-298c7932016c" />
+
 This dashboard page should display the goal for the year, the total number of sales and bookings, the average price per night, the year-over-year growth %, and the city rank as KPI cards. 
 The slicers allow the manager to pick the specific year and city to gain more information on the sales. 
 The pie chart shows that the reviews and average price per night have no trend; the price does not seem to increase or decrease with higher reviews.
 
 <img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/42287b23-df5c-4a7e-a3e3-31c893f94dd5" />
+
 This page of the dashboard shows the analysis of the 3 cities: New York, Los Angeles, and San Francisco. 
 It shows the divide of the average total price and price per night between the 3 cities; there seems to be no significant difference. 
 It shows how the average night duration varies with whether the booking is cheap or expensive, and how the rank varies with the booking tier. 
 The slicer allows you to slide between the years.
 
 <img width="975" height="616" alt="image" src="https://github.com/user-attachments/assets/3c016897-12a7-4c0e-bb5f-1b8db66b1f59" />
+
 Why did Total sales dip or spike in certain periods? 
 The decomposition tree shows that the 1st and 4th quarters have the least sales that were paid. 
-This could be because the 1st and 4th quarters are during the holiday season or just after, and therefore people have spent a lot of money and so they cannot pay during those months. This is consistent with all 3 cities.
+This could be because the 1st and 4th quarters are during the holiday season or just after, and therefore people have spent a lot of money and so they cannot pay during those months. 
+This is consistent with all 3 cities.
+
 Average price per night is highest for bookings that scored a 2, and generally drops as review scores rise toward 4, 6 — before an oddity at score 1, which sits closer to the low end alongside "Not Reviewed." 
 This is the opposite of what is expected; it is expected that as reviews increase, so does the price. 
 This could be because with a higher price, guests may have higher expectations to match that price point, so they leave a poor score rather than a great review score. 
 The score anomaly should be confirmed; it could be due to a small sample size and so a little unreliable.
+
 The stacked column chart shows that cancelled bookings (True) show a higher average total price than completed bookings (False) at every single review score level, without exception. 
 It does support that higher-value bookings are more likely to be cancelled, regardless of review score. 
 Cancelled bookings carry a higher-than-average total price than completed bookings across every review score, suggesting higher-value bookings are at greater cancellation risk.
