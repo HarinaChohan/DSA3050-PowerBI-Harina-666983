@@ -116,7 +116,7 @@ This is the measure that highlights if the business has reached its goal of 5000
 6.	YoY growth %
 This is a measure that shows the year-over-year trend growth of the sales; it compares current year sales to the previous year’s sales to show if there has been any change. The DAX function used is DIVIDE(). Dashboard visualisation is a KPI card.
 
-# Dashboard and insights
+# Dashboard 
 
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/337f775a-790c-4922-85da-298c7932016c" />
 
@@ -146,3 +146,10 @@ The score anomaly should be confirmed; it could be due to a small sample size an
 The stacked column chart shows that cancelled bookings (True) show a higher average total price than completed bookings (False) at every single review score level, without exception. 
 It does support that higher-value bookings are more likely to be cancelled, regardless of review score. 
 Cancelled bookings carry a higher-than-average total price than completed bookings across every review score, suggesting higher-value bookings are at greater cancellation risk.
+
+# Insights
+Performance overview: The business hit its yearly sales goal with $529.27bn in total sales across 10M bookings, an average nightly rate of $274.71, and 26% YoY growth. San Francisco is the top-performing market — ranked #1 city, highest average price per night, and by far the longest average stay durations — outperforming New York and Los Angeles across nearly every metric.
+
+Key diagnostic finding: Cancelled bookings show a consistently higher average total price than completed bookings across every review score band, suggesting higher-value bookings carry greater cancellation risk. This aligns with a related pattern where average price per night peaks at low review scores (2) and declines toward higher scores (4–6) — indicating that overpaying relative to the experience delivered may drive both dissatisfaction and cancellations, rather than higher price guaranteeing a better outcome.
+
+Data quality note: New York's "Cheap" price tier shows an average duration of -44.54 nights, an impossible value likely tied to the invalid/negative nights entries identified during data cleaning. This should be corrected before the dashboard is shared.
